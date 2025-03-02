@@ -4,6 +4,7 @@
 .Ruserdata
 *.Rproj
 .*.swp
+.DS_Store
 tests/gpu/misc/hosts
 
 tests/gpu/misc/hosts
