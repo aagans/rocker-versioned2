@@ -41,7 +41,14 @@ install2.r --error --skipinstalled -n "$NCPUS" \
     rmarkdown \
     BiocManager \
     vroom \
-    gert
+    gert \
+    plotly \
+    ggpp \
+    ids \
+    patchwork \
+    reactable \
+    reactablefmtr
+    
 
 ## dplyr database backends
 install2.r --error --skipmissing --skipinstalled -n "$NCPUS" \
@@ -55,7 +62,8 @@ install2.r --error --skipmissing --skipinstalled -n "$NCPUS" \
     RMariaDB \
     RPostgres \
     RSQLite \
-    fst
+    fst \
+    pool
 
 ## a bridge to far? -- brings in another 60 packages
 # install2.r --error --skipinstalled -n "$NCPUS" tidymodels

@@ -24,7 +24,8 @@ apt_install \
     libcairo2-dev \
     libxt-dev \
     xtail \
-    wget
+    wget \
+    vim
 
 # Run dependency scripts
 /rocker_scripts/install_s6init.sh
