@@ -13,3 +13,4 @@ tmp
 
 # Use for build reports
 /reports
+.DS_Store
